@@ -1,0 +1,9 @@
+    .btn-default {
+        background: rgb(76, 0, 255);
+        color: rgb(255, 255, 255);
+    }
+    .btn-default:hover {
+        background: rgb(250, 0, 0);
+        color: rgb(255, 255, 255);
+     }
+
