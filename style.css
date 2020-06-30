@@ -1,9 +1,23 @@
-    .btn-default {
-        background: rgb(76, 0, 255);
-        color: rgb(255, 255, 255);
-    }
-    .btn-default:hover {
-        background: rgb(250, 0, 0);
-        color: rgb(255, 255, 255);
-     }
+:root {
+  --input-padding-x: 1rem;
+  --input-padding-y: .75rem;
+}
 
+body {
+  background: #000000;
+  background: linear-gradient(to bottom, #ffffff, #411bec);
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-label-group {
+    padding: 10px;
+}
+
+.btn btn-lg btn-primary btn-block text-lowercase {
+    padding: 10px;
+}
